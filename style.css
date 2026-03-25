@@ -385,8 +385,40 @@ ul { list-style: none; }
 }
 
 /* Foto */
-.about__card { display: flex; justify-content: center; }
+.about__card { display: flex; justify-content: center; align-items: center; }
 .about__photo { position: relative; }
+
+/* Card da marca Ilumi */
+.about__brand-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  background: var(--navy-900);
+  border-radius: var(--radius-lg);
+  padding: 3rem 2.5rem;
+  box-shadow: var(--shadow-lg);
+  width: 100%;
+  max-width: 320px;
+}
+.about__brand-logo {
+  width: 180px;
+  height: auto;
+}
+.about__brand-link {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: rgba(255,255,255,0.85);
+  letter-spacing: 1px;
+  border-bottom: 2px solid rgba(255,255,255,0.3);
+  padding-bottom: 2px;
+  transition: color var(--transition), border-color var(--transition);
+}
+.about__brand-link:hover {
+  color: var(--white);
+  border-color: var(--white);
+}
 
 .photo__placeholder {
   width: 280px;
