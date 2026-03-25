@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Representante Comercial especializado em aumentar suas vendas e expandir seu mercado." />
+  <title>Carlos Silva | Representante Comercial</title>
+
+  <!-- Google Fonts: Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Ícones: Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- CSS principal -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       HEADER — Topo fixo com navegação e botão WhatsApp
+  ============================================================ -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+
+      <!-- Logo / Nome -->
+      <a href="#inicio" class="header__logo">
+        <!-- SUBSTITUA: Altere "Carlos Silva" pelo seu nome -->
+        <span class="logo__name">Carlos Silva</span>
+        <span class="logo__title">Representante Comercial</span>
+      </a>
+
+      <!-- Navegação desktop -->
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li><a href="#inicio"   class="nav__link">Início</a></li>
+          <li><a href="#sobre"    class="nav__link">Sobre</a></li>
+          <li><a href="#servicos" class="nav__link">Serviços</a></li>
+          <li><a href="#contato"  class="nav__link">Contato</a></li>
+        </ul>
+      </nav>
+
+      <!-- Botão hamburguer (mobile) -->
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+
+    </div>
+  </header>
+
+
+  <!-- ============================================================
+       HERO — Seção principal / dobra acima do fold
+  ============================================================ -->
+  <section class="hero" id="inicio">
+    <div class="container hero__inner">
+
+      <!-- Conteúdo textual -->
+      <div class="hero__content" data-aos="fade-right">
+        <span class="hero__badge">Representação Comercial</span>
+        <!-- SUBSTITUA: Altere o título conforme seu posicionamento -->
+        <h1 class="hero__title">
+          Soluções comerciais que <span class="highlight">aumentam suas vendas</span>
+        </h1>
+        <p class="hero__subtitle">
+          Conectando empresas a oportunidades reais de crescimento.
+          Atendimento personalizado, estratégia focada em resultados e
+          uma rede de relacionamentos construída ao longo de mais de 15 anos.
+        </p>
+        <div class="hero__actions">
+          <!-- Botão primário — leva à seção de contato -->
+          <a href="#contato" class="btn btn--primary">
+            <i class="fas fa-handshake"></i> Entrar em contato
+          </a>
+          <!-- Botão WhatsApp direto -->
+          <!-- SUBSTITUA: Troque o número abaixo -->
+          <a href="https://wa.me/5511999999999?text=Olá%2C%20quero%20saber%20mais%20sobre%20seus%20serviços!"
+             class="btn btn--whatsapp"
+             target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-whatsapp"></i> Falar no WhatsApp
+          </a>
+        </div>
+        <!-- Números de impacto -->
+        <div class="hero__stats">
+          <div class="stat">
+            <strong>15+</strong>
+            <span>Anos de experiência</span>
+          </div>
+          <div class="stat">
+            <strong>200+</strong>
+            <span>Clientes atendidos</span>
+          </div>
+          <div class="stat">
+            <strong>98%</strong>
+            <span>Satisfação</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Foto do profissional -->
+      <div class="hero__image" data-aos="fade-left">
+        <div class="hero__photo">
+          <img src="foto.png" alt="Carlos Silva — Representante Comercial" />
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Onda decorativa na base da seção -->
+    <div class="hero__wave">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none">
+        <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#f8faff"/>
+      </svg>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SOBRE — Apresentação profissional
+  ============================================================ -->
+  <section class="about" id="sobre">
+    <div class="container about__inner">
+
+      <!-- Card de destaque lateral -->
+      <div class="about__card" data-aos="fade-right">
+        <div class="about__photo">
+          <div class="photo__placeholder">
+            <!-- SUBSTITUA: coloque sua foto aqui -->
+            <!-- <img src="foto.jpg" alt="Carlos Silva" /> -->
+            <i class="fas fa-user-tie"></i>
+          </div>
+          <div class="about__badge">
+            <i class="fas fa-award"></i>
+            <div>
+              <strong>Top Representante</strong>
+              <small>2019 · 2021 · 2023</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Texto de apresentação -->
+      <div class="about__content" data-aos="fade-left">
+        <span class="section__label">Sobre mim</span>
+        <h2 class="section__title">
+          <!-- SUBSTITUA: Seu nome completo -->
+          Conheça Carlos Silva
+        </h2>
+        <p class="about__text">
+          Com mais de <strong>15 anos de experiência</strong> em representação
+          comercial, atuo conectando empresas a distribuidores, varejistas e
+          parceiros estratégicos em todo o Brasil. Minha missão é transformar
+          oportunidades em negócios concretos, sempre com ética, comprometimento
+          e foco no resultado.
+        </p>
+        <p class="about__text">
+          <!-- SUBSTITUA: Adapte ao seu histórico real -->
+          Já atuei em setores como indústria, bens de consumo, tecnologia e
+          serviços. Sou especialista em abrir novos mercados, fortalecer marcas
+          regionais e criar pontes entre fabricantes e compradores.
+        </p>
+
+        <!-- Lista de diferenciais -->
+        <ul class="about__list">
+          <li><i class="fas fa-check-circle"></i> Amplo network em todo o território nacional</li>
+          <li><i class="fas fa-check-circle"></i> Negociações orientadas a resultados mensuráveis</li>
+          <li><i class="fas fa-check-circle"></i> Atendimento personalizado e ágil</li>
+          <li><i class="fas fa-check-circle"></i> Transparência em todas as etapas</li>
+        </ul>
+
+        <a href="#contato" class="btn btn--primary">
+          <i class="fas fa-envelope"></i> Vamos conversar
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SERVIÇOS — Cards com os serviços oferecidos
+  ============================================================ -->
+  <section class="services" id="servicos">
+    <div class="container">
+
+      <!-- Cabeçalho da seção -->
+      <div class="section__header" data-aos="fade-up">
+        <span class="section__label">O que ofereço</span>
+        <h2 class="section__title">Meus Serviços</h2>
+        <p class="section__subtitle">
+          Soluções completas para impulsionar sua presença comercial e
+          maximizar seus resultados de vendas.
+        </p>
+      </div>
+
+      <!-- Grid de cards de serviços -->
+      <div class="services__grid">
+
+        <!-- SUBSTITUA: Adapte os serviços à sua realidade -->
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="service-card__icon">
+            <i class="fas fa-handshake"></i>
+          </div>
+          <h3>Intermediação Comercial</h3>
+          <p>Facilitando negócios entre compradores e vendedores, com foco em fechar acordos vantajosos para ambas as partes.</p>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-card__icon">
+            <i class="fas fa-search-dollar"></i>
+          </div>
+          <h3>Prospecção de Clientes</h3>
+          <p>Identificação e qualificação de novos clientes em potencial para sua empresa, usando metodologia comprovada.</p>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-card__icon">
+            <i class="fas fa-store"></i>
+          </div>
+          <h3>Representação de Marcas</h3>
+          <p>Levo sua marca aos principais canais de distribuição, negociando condições e expandindo sua presença no mercado.</p>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="service-card__icon">
+            <i class="fas fa-chart-bar"></i>
+          </div>
+          <h3>Consultoria de Vendas</h3>
+          <p>Diagnóstico do seu processo comercial e implementação de estratégias para aumentar conversões e receita.</p>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="service-card__icon">
+            <i class="fas fa-map-marked-alt"></i>
+          </div>
+          <h3>Expansão de Mercado</h3>
+          <p>Desenvolvimento de novos territórios e regiões para sua marca, com mapeamento completo de oportunidades.</p>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+          <div class="service-card__icon">
+            <i class="fas fa-comments-dollar"></i>
+          </div>
+          <h3>Negociação Estratégica</h3>
+          <p>Condução de negociações complexas com foco em preservar o relacionamento e maximizar o valor do acordo.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       BENEFÍCIOS — Vantagens para o cliente
+  ============================================================ -->
+  <section class="benefits">
+    <div class="container">
+
+      <div class="section__header" data-aos="fade-up">
+        <span class="section__label">Por que escolher</span>
+        <h2 class="section__title">Vantagens para o seu negócio</h2>
+      </div>
+
+      <div class="benefits__grid">
+
+        <div class="benefit-item" data-aos="fade-up" data-aos-delay="0">
+          <div class="benefit-item__icon"><i class="fas fa-rocket"></i></div>
+          <div>
+            <h4>Aumento expressivo de vendas</h4>
+            <p>Estratégias focadas que elevam seu faturamento de forma consistente.</p>
+          </div>
+        </div>
+
+        <div class="benefit-item" data-aos="fade-up" data-aos-delay="100">
+          <div class="benefit-item__icon"><i class="fas fa-users"></i></div>
+          <div>
+            <h4>Novos clientes qualificados</h4>
+            <p>Acesso a uma rede sólida de contatos prontos para comprar.</p>
+          </div>
+        </div>
+
+        <div class="benefit-item" data-aos="fade-up" data-aos-delay="200">
+          <div class="benefit-item__icon"><i class="fas fa-globe-americas"></i></div>
+          <div>
+            <h4>Expansão geográfica</h4>
+            <p>Leve sua marca para novas regiões sem ampliar sua equipe interna.</p>
+          </div>
+        </div>
+
+        <div class="benefit-item" data-aos="fade-up" data-aos-delay="300">
+          <div class="benefit-item__icon"><i class="fas fa-coins"></i></div>
+          <div>
+            <h4>Custo-benefício superior</h4>
+            <p>Você paga por resultados, não por estrutura fixa. Modelo flexível e eficiente.</p>
+          </div>
+        </div>
+
+        <div class="benefit-item" data-aos="fade-up" data-aos-delay="400">
+          <div class="benefit-item__icon"><i class="fas fa-shield-alt"></i></div>
+          <div>
+            <h4>Segurança e confiabilidade</h4>
+            <p>Representação com ética, compromisso e total transparência nas negociações.</p>
+          </div>
+        </div>
+
+        <div class="benefit-item" data-aos="fade-up" data-aos-delay="500">
+          <div class="benefit-item__icon"><i class="fas fa-headset"></i></div>
+          <div>
+            <h4>Suporte dedicado</h4>
+            <p>Atendimento rápido e personalizado em todas as etapas da parceria.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       PROVA SOCIAL — Depoimentos de clientes
+  ============================================================ -->
+  <section class="testimonials">
+    <div class="container">
+
+      <div class="section__header" data-aos="fade-up">
+        <span class="section__label">Depoimentos</span>
+        <h2 class="section__title">O que dizem sobre meu trabalho</h2>
+      </div>
+
+      <div class="testimonials__grid">
+
+        <!-- SUBSTITUA: Use depoimentos reais dos seus clientes -->
+
+        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="testimonial-card__stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-card__text">
+            "Desde que o Carlos assumiu nossa representação no interior de São Paulo, nossas vendas cresceram 40% em apenas 8 meses. Profissional excepcional!"
+          </p>
+          <div class="testimonial-card__author">
+            <div class="author__avatar">MF</div>
+            <div>
+              <!-- SUBSTITUA: Nome e cargo reais -->
+              <strong>Marcos Ferreira</strong>
+              <small>Diretor Comercial · Indústria Ferreira Ltda.</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="150">
+          <div class="testimonial-card__stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-card__text">
+            "Contratei o Carlos para abrir o mercado do Nordeste e ele superou todas as expectativas. Rede de contatos impressionante e total comprometimento."
+          </p>
+          <div class="testimonial-card__author">
+            <div class="author__avatar">AC</div>
+            <div>
+              <strong>Ana Carolina Souza</strong>
+              <small>CEO · Grupo Inovação Comercial</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="testimonial-card__stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-card__text">
+            "Trabalho com ele há 5 anos. Honesto, estratégico e sempre presente. Ele não é só um representante, é um verdadeiro parceiro de negócios."
+          </p>
+          <div class="testimonial-card__author">
+            <div class="author__avatar">RL</div>
+            <div>
+              <strong>Roberto Lima</strong>
+              <small>Gerente de Vendas · TechBrasil S.A.</small>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Logos de empresas atendidas (opcional) -->
+      <div class="clients" data-aos="fade-up">
+        <p class="clients__label">Empresas que já confiei no meu trabalho</p>
+        <div class="clients__logos">
+          <!-- SUBSTITUA: Coloque logos ou nomes reais das empresas -->
+          <span class="client-logo">Empresa Alpha</span>
+          <span class="client-logo">Grupo Beta</span>
+          <span class="client-logo">Indústria Gama</span>
+          <span class="client-logo">Distribuidora Delta</span>
+          <span class="client-logo">Rede Epsilon</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       CTA SECTION — Chamada principal para ação
+  ============================================================ -->
+  <section class="cta-section">
+    <div class="container cta-section__inner" data-aos="zoom-in">
+      <div class="cta-section__content">
+        <h2>Pronto para aumentar suas vendas?</h2>
+        <p>
+          Entre em contato agora mesmo e descubra como posso ajudar sua empresa
+          a crescer. <strong>Primeira consulta gratuita!</strong>
+        </p>
+        <!-- SUBSTITUA: Número do WhatsApp -->
+        <a href="https://wa.me/5511999999999?text=Olá%20Carlos!%20Vim%20pelo%20seu%20site%20e%20quero%20saber%20mais%20sobre%20seus%20serviços."
+           class="btn btn--whatsapp btn--lg"
+           target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-whatsapp"></i>
+          Falar agora no WhatsApp
+        </a>
+      </div>
+      <!-- Decoração -->
+      <div class="cta-section__deco" aria-hidden="true">
+        <i class="fas fa-comments"></i>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       CONTATO — Informações e canais de contato
+  ============================================================ -->
+  <section class="contact" id="contato">
+    <div class="container">
+
+      <div class="section__header" data-aos="fade-up">
+        <span class="section__label">Fale comigo</span>
+        <h2 class="section__title">Entre em Contato</h2>
+        <p class="section__subtitle">
+          Estou disponível para conversar sobre novas oportunidades e parcerias.
+          Escolha o canal de sua preferência.
+        </p>
+      </div>
+
+      <div class="contact__grid">
+
+        <!-- Card WhatsApp -->
+        <a href="https://wa.me/5511999999999?text=Olá%20Carlos%2C%20vim%20pelo%20seu%20site!"
+           class="contact-card contact-card--whatsapp"
+           target="_blank" rel="noopener noreferrer"
+           data-aos="fade-up" data-aos-delay="0">
+          <div class="contact-card__icon"><i class="fab fa-whatsapp"></i></div>
+          <h3>WhatsApp</h3>
+          <!-- SUBSTITUA: Seu número -->
+          <p>(11) 99999-9999</p>
+          <span class="contact-card__action">Enviar mensagem →</span>
+        </a>
+
+        <!-- Card E-mail -->
+        <!-- SUBSTITUA: Seu e-mail -->
+        <a href="mailto:carlos@email.com.br"
+           class="contact-card contact-card--email"
+           data-aos="fade-up" data-aos-delay="150">
+          <div class="contact-card__icon"><i class="fas fa-envelope"></i></div>
+          <h3>E-mail</h3>
+          <p>carlos@email.com.br</p>
+          <span class="contact-card__action">Enviar e-mail →</span>
+        </a>
+
+        <!-- Card Instagram -->
+        <!-- SUBSTITUA: Seu @instagram -->
+        <a href="https://instagram.com/seuinstagram"
+           class="contact-card contact-card--instagram"
+           target="_blank" rel="noopener noreferrer"
+           data-aos="fade-up" data-aos-delay="300">
+          <div class="contact-card__icon"><i class="fab fa-instagram"></i></div>
+          <h3>Instagram</h3>
+          <p>@seuinstagram</p>
+          <span class="contact-card__action">Ver perfil →</span>
+        </a>
+
+        <!-- Card LinkedIn -->
+        <!-- SUBSTITUA: Seu perfil do LinkedIn -->
+        <a href="https://linkedin.com/in/seulinkedin"
+           class="contact-card contact-card--linkedin"
+           target="_blank" rel="noopener noreferrer"
+           data-aos="fade-up" data-aos-delay="450">
+          <div class="contact-card__icon"><i class="fab fa-linkedin-in"></i></div>
+          <h3>LinkedIn</h3>
+          <p>/in/seulinkedin</p>
+          <span class="contact-card__action">Conectar →</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FOOTER — Rodapé
+  ============================================================ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+
+      <!-- Coluna 1: Marca -->
+      <div class="footer__brand">
+        <!-- SUBSTITUA: Seu nome -->
+        <span class="logo__name">Carlos Silva</span>
+        <span class="logo__title">Representante Comercial</span>
+        <p class="footer__tagline">
+          Conectando empresas a resultados reais há mais de 15 anos.
+        </p>
+        <!-- Ícones de redes sociais -->
+        <div class="footer__social">
+          <!-- SUBSTITUA: Links reais -->
+          <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a href="https://instagram.com/seuinstagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://linkedin.com/in/seulinkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Coluna 2: Links rápidos -->
+      <div class="footer__links">
+        <h4>Links rápidos</h4>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+
+      <!-- Coluna 3: Serviços -->
+      <div class="footer__links">
+        <h4>Serviços</h4>
+        <ul>
+          <li><a href="#servicos">Intermediação Comercial</a></li>
+          <li><a href="#servicos">Prospecção de Clientes</a></li>
+          <li><a href="#servicos">Representação de Marcas</a></li>
+          <li><a href="#servicos">Consultoria de Vendas</a></li>
+        </ul>
+      </div>
+
+      <!-- Coluna 4: CTA -->
+      <div class="footer__cta">
+        <h4>Vamos conversar?</h4>
+        <p>Mande uma mensagem e responderei em breve.</p>
+        <!-- SUBSTITUA: Número WhatsApp -->
+        <a href="https://wa.me/5511999999999?text=Olá%2C%20vim%20pelo%20site!"
+           class="btn btn--whatsapp"
+           target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+      </div>
+
+    </div>
+
+    <!-- Barra de copyright -->
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <!-- SUBSTITUA: Seu nome -->
+        <p>&copy; <span id="year"></span> Carlos Silva — Todos os direitos reservados.</p>
+        <p>Desenvolvido com <i class="fas fa-heart" style="color:#ef4444"></i> para resultados</p>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
