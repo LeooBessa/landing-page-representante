@@ -327,6 +327,7 @@ ul { list-style: none; }
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
+  padding-left: 3rem;
 }
 .stat strong {
   display: block;
