@@ -315,7 +315,6 @@ ul { list-style: none; }
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
-  justify-content: center;
   margin-bottom: 2.5rem;
 }
 
@@ -670,11 +669,13 @@ ul { list-style: none; }
 .benefits .section__subtitle { color: rgba(255,255,255,0.65); }
 
 .cta-section {
-  background: linear-gradient(135deg, var(--navy-950) 0%, var(--navy-800) 100%);
-  color: var(--white);
+  background: var(--white);
+  color: var(--gray-900);
   padding: 5rem 0;
   overflow: hidden;
   position: relative;
+  border-top: 1px solid var(--gray-100);
+  border-bottom: 1px solid var(--gray-100);
 }
 
 .cta-section__inner {
@@ -690,7 +691,7 @@ ul { list-style: none; }
   margin-bottom: 0.75rem;
 }
 .cta-section__content p {
-  opacity: 0.9;
+  color: var(--gray-500);
   margin-bottom: 1.75rem;
   font-size: 1rem;
 }
@@ -707,8 +708,7 @@ ul { list-style: none; }
 /* ─── CONTACT ────────────────────────────────────────────── */
 .contact {
   padding: 6rem 0;
-  background: var(--navy-900);
-  color: var(--white);
+  background: var(--gray-50);
 }
 
 .contact__grid {
@@ -717,13 +717,6 @@ ul { list-style: none; }
   gap: 1.25rem;
 }
 
-.contact .section__label {
-  background: rgba(255,255,255,0.1);
-  color: var(--blue-500);
-}
-.contact .section__title    { color: var(--white); }
-.contact .section__subtitle { color: rgba(255,255,255,0.65); }
-
 .contact-card {
   display: flex;
   flex-direction: column;
@@ -731,15 +724,14 @@ ul { list-style: none; }
   text-align: center;
   padding: 2rem 1.5rem;
   border-radius: var(--radius);
-  border: 2px solid rgba(255,255,255,0.1);
-  background: rgba(255,255,255,0.05);
-  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition), background var(--transition);
-  color: var(--white);
+  border: 2px solid transparent;
+  background: var(--white);
+  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+  color: var(--gray-700);
 }
 .contact-card:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow-lg);
-  background: rgba(255,255,255,0.09);
 }
 
 .contact-card__icon {
@@ -758,12 +750,12 @@ ul { list-style: none; }
 .contact-card h3 {
   font-size: 1rem;
   font-weight: 600;
-  color: var(--white);
+  color: var(--gray-900);
   margin-bottom: 0.3rem;
 }
 .contact-card p {
   font-size: 0.85rem;
-  color: rgba(255,255,255,0.6);
+  color: var(--gray-500);
   margin-bottom: 0.75rem;
 }
 
