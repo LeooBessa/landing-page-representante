@@ -317,7 +317,7 @@ ul { list-style: none; }
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
-  max-width: 320px;
+  max-width: 350px;
   justify-content: center;
   margin-bottom: 2.5rem;
 }
