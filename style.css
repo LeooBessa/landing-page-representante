@@ -761,9 +761,9 @@ ul { list-style: none; }
 .contact-card--instagram:hover               { border-color: #db2777; }
 .contact-card--instagram .contact-card__action{ color: #db2777; }
 
-.contact-card--linkedin .contact-card__icon  { background: #dbeafe; color: #0a66c2; }
-.contact-card--linkedin:hover                { border-color: #0a66c2; }
-.contact-card--linkedin .contact-card__action{ color: #0a66c2; }
+.contact-card--facebook .contact-card__icon  { background: #dbeafe; color: #1877f2; }
+.contact-card--facebook:hover                { border-color: #1877f2; }
+.contact-card--facebook .contact-card__action{ color: #1877f2; }
 
 
 /* ─── FOOTER ─────────────────────────────────────────────── */
