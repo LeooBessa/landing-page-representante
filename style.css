@@ -365,6 +365,11 @@ ul { list-style: none; }
   width: auto;
   object-fit: contain;
   object-position: bottom;
+  transition: transform 0.4s ease;
+}
+
+.hero__photo img:hover {
+  transform: scale(1.07);
 }
 
 /* Onda na base */
