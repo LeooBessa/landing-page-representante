@@ -55,6 +55,10 @@
        HERO — Seção principal / dobra acima do fold
   ============================================================ -->
   <section class="hero" id="inicio">
+
+    <!-- Aurora background animado -->
+    <div class="hero__aurora" aria-hidden="true"></div>
+
     <div class="container hero__inner">
 
       <!-- Título -->
@@ -108,35 +112,53 @@
 
 
   <!-- ============================================================
+       PARCEIROS — Marquee infinito de logos
+  ============================================================ -->
+  <section class="partners" aria-label="Parceiros e marcas representadas">
+    <div class="container partners__inner">
+
+      <p class="partners__label">Parceiros &amp; marcas representadas</p>
+
+      <div class="partners__marquee">
+        <div class="partners__track">
+          <!-- Conjunto 1 -->
+          <a class="partners__slot" href="https://www.ilumi.com.br/"            target="_blank" rel="noopener noreferrer" aria-label="Ilumi"><img src="images/Logo-Ilumi.png"  alt="Ilumi"  loading="lazy" /></a>
+          <a class="partners__slot" href="https://www.civitt.com.br/"           target="_blank" rel="noopener noreferrer" aria-label="Civitt"><img src="images/Logo-Civitt.png" alt="Civitt" loading="lazy" /></a>
+          <a class="partners__slot" href="https://www.ovd.com.br/site/index.html" target="_blank" rel="noopener noreferrer" aria-label="OVD"><img src="images/Logo-OVD.png"    alt="OVD"    loading="lazy" /></a>
+          <a class="partners__slot" href="https://dvg.com.br/"                  target="_blank" rel="noopener noreferrer" aria-label="DVG"><img src="images/Logo-DVG.png"    alt="DVG"    loading="lazy" /></a>
+          <a class="partners__slot" href="https://www.ilumi.com.br/"            target="_blank" rel="noopener noreferrer" aria-hidden="true" tabindex="-1"><img src="images/Logo-Ilumi.png"  alt="" /></a>
+          <a class="partners__slot" href="https://www.civitt.com.br/"           target="_blank" rel="noopener noreferrer" aria-hidden="true" tabindex="-1"><img src="images/Logo-Civitt.png" alt="" /></a>
+          <a class="partners__slot" href="https://www.ovd.com.br/site/index.html" target="_blank" rel="noopener noreferrer" aria-hidden="true" tabindex="-1"><img src="images/Logo-OVD.png"    alt="" /></a>
+          <a class="partners__slot" href="https://dvg.com.br/"                  target="_blank" rel="noopener noreferrer" aria-hidden="true" tabindex="-1"><img src="images/Logo-DVG.png"    alt="" /></a>
+          <a class="partners__slot" href="https://www.ilumi.com.br/"            target="_blank" rel="noopener noreferrer" aria-hidden="true" tabindex="-1"><img src="images/Logo-Ilumi.png"  alt="" /></a>
+          <a class="partners__slot" href="https://www.civitt.com.br/"           target="_blank" rel="noopener noreferrer" aria-hidden="true" tabindex="-1"><img src="images/Logo-Civitt.png" alt="" /></a>
+          <a class="partners__slot" href="https://www.ovd.com.br/site/index.html" target="_blank" rel="noopener noreferrer" aria-hidden="true" tabindex="-1"><img src="images/Logo-OVD.png"    alt="" /></a>
+          <a class="partners__slot" href="https://dvg.com.br/"                  target="_blank" rel="noopener noreferrer" aria-hidden="true" tabindex="-1"><img src="images/Logo-DVG.png"    alt="" /></a>
+          <!-- Conjunto 2 (idêntico, para loop sem corte) -->
+          <a class="partners__slot" href="https://www.ilumi.com.br/"            target="_blank" rel="noopener noreferrer" aria-hidden="true" tabindex="-1"><img src="images/Logo-Ilumi.png"  alt="" /></a>
+          <a class="partners__slot" href="https://www.civitt.com.br/"           target="_blank" rel="noopener noreferrer" aria-hidden="true" tabindex="-1"><img src="images/Logo-Civitt.png" alt="" /></a>
+          <a class="partners__slot" href="https://www.ovd.com.br/site/index.html" target="_blank" rel="noopener noreferrer" aria-hidden="true" tabindex="-1"><img src="images/Logo-OVD.png"    alt="" /></a>
+          <a class="partners__slot" href="https://dvg.com.br/"                  target="_blank" rel="noopener noreferrer" aria-hidden="true" tabindex="-1"><img src="images/Logo-DVG.png"    alt="" /></a>
+          <a class="partners__slot" href="https://www.ilumi.com.br/"            target="_blank" rel="noopener noreferrer" aria-hidden="true" tabindex="-1"><img src="images/Logo-Ilumi.png"  alt="" /></a>
+          <a class="partners__slot" href="https://www.civitt.com.br/"           target="_blank" rel="noopener noreferrer" aria-hidden="true" tabindex="-1"><img src="images/Logo-Civitt.png" alt="" /></a>
+          <a class="partners__slot" href="https://www.ovd.com.br/site/index.html" target="_blank" rel="noopener noreferrer" aria-hidden="true" tabindex="-1"><img src="images/Logo-OVD.png"    alt="" /></a>
+          <a class="partners__slot" href="https://dvg.com.br/"                  target="_blank" rel="noopener noreferrer" aria-hidden="true" tabindex="-1"><img src="images/Logo-DVG.png"    alt="" /></a>
+          <a class="partners__slot" href="https://www.ilumi.com.br/"            target="_blank" rel="noopener noreferrer" aria-hidden="true" tabindex="-1"><img src="images/Logo-Ilumi.png"  alt="" /></a>
+          <a class="partners__slot" href="https://www.civitt.com.br/"           target="_blank" rel="noopener noreferrer" aria-hidden="true" tabindex="-1"><img src="images/Logo-Civitt.png" alt="" /></a>
+          <a class="partners__slot" href="https://www.ovd.com.br/site/index.html" target="_blank" rel="noopener noreferrer" aria-hidden="true" tabindex="-1"><img src="images/Logo-OVD.png"    alt="" /></a>
+          <a class="partners__slot" href="https://dvg.com.br/"                  target="_blank" rel="noopener noreferrer" aria-hidden="true" tabindex="-1"><img src="images/Logo-DVG.png"    alt="" /></a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ============================================================
        SOBRE — Apresentação profissional
   ============================================================ -->
   <section class="about" id="sobre">
     <div class="container about__inner">
-
-      <!-- Cards de marcas representadas -->
-      <div class="about__card" data-aos="fade-right">
-
-        <div class="about__brand-card" style="background:#1e3a8a;">
-          <img src="images/Logo-Ilumi.png" alt="Logo Ilumi" class="about__brand-logo" />
-          <a href="https://www.ilumi.com.br/" target="_blank" rel="noopener noreferrer" class="about__brand-link">Ilumi</a>
-        </div>
-
-        <div class="about__brand-card" style="background:#1e3a8a;">
-          <img src="images/Logo-Civitt.png" alt="Logo Civitt" class="about__brand-logo" />
-          <a href="https://www.civitt.com.br/" target="_blank" rel="noopener noreferrer" class="about__brand-link">Civitt</a>
-        </div>
-
-        <div class="about__brand-card" style="background:#1e3a8a;">
-          <img src="images/Logo-OVD.png" alt="Logo OVD" class="about__brand-logo" />
-          <a href="https://www.ovd.com.br/site/index.html" target="_blank" rel="noopener noreferrer" class="about__brand-link">OVD</a>
-        </div>
-
-        <div class="about__brand-card" style="background:#1e3a8a;">
-          <img src="images/Logo-DVG.png" alt="Logo DVG" class="about__brand-logo" />
-          <a href="https://dvg.com.br/" target="_blank" rel="noopener noreferrer" class="about__brand-link">DVG</a>
-        </div>
-
-      </div>
 
       <!-- Texto de apresentação -->
       <div class="about__content" data-aos="fade-left">
@@ -197,53 +219,65 @@
 
         <!-- SUBSTITUA: Adapte os serviços à sua realidade -->
 
-        <div class="service-card" data-aos="fade-up" data-aos-delay="0">
+        <a class="service-card" data-aos="fade-up" data-aos-delay="0"
+           href="https://wa.me/5584991728176?text=Olá!%20Quero%20Representação%20de%20Marcas."
+           target="_blank" rel="noopener noreferrer">
           <div class="service-card__icon">
             <i class="fas fa-store"></i>
           </div>
           <h3>Representação de Marcas</h3>
           <p>Levo sua marca aos principais canais de distribuição, negociando condições e expandindo sua presença no mercado.</p>
-        </div>
+        </a>
 
-        <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+        <a class="service-card" data-aos="fade-up" data-aos-delay="100"
+           href="https://wa.me/5584991728176?text=Olá!%20Quero%20Expansão%20de%20Mercado."
+           target="_blank" rel="noopener noreferrer">
           <div class="service-card__icon">
             <i class="fas fa-map-marked-alt"></i>
           </div>
           <h3>Expansão de Mercado</h3>
           <p>Desenvolvimento de novos territórios e regiões para sua marca, com mapeamento completo de oportunidades.</p>
-        </div>
+        </a>
 
-        <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+        <a class="service-card" data-aos="fade-up" data-aos-delay="200"
+           href="https://wa.me/5584991728176?text=Olá!%20Quero%20Negociação%20Estratégica."
+           target="_blank" rel="noopener noreferrer">
           <div class="service-card__icon">
             <i class="fas fa-comments-dollar"></i>
           </div>
           <h3>Negociação Estratégica</h3>
           <p>Condução de negociações complexas com foco em preservar o relacionamento e maximizar o valor do acordo.</p>
-        </div>
+        </a>
 
-        <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+        <a class="service-card" data-aos="fade-up" data-aos-delay="300"
+           href="https://wa.me/5584991728176?text=Olá!%20Quero%20Planejamento%20Comercial."
+           target="_blank" rel="noopener noreferrer">
           <div class="service-card__icon">
             <i class="fas fa-clipboard-list"></i>
           </div>
           <h3>Planejamento Comercial</h3>
           <p>Definição de estratégias para aumentar vendas, presença e competitividade.</p>
-        </div>
+        </a>
 
-        <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+        <a class="service-card" data-aos="fade-up" data-aos-delay="400"
+           href="https://wa.me/5584991728176?text=Olá!%20Quero%20Gestão%20de%20Carteira%20de%20Clientes."
+           target="_blank" rel="noopener noreferrer">
           <div class="service-card__icon">
             <i class="fas fa-users"></i>
           </div>
           <h3>Gestão de Carteira de Clientes</h3>
           <p>Relacionamento contínuo com clientes ativos, focando em fidelização e recompra.</p>
-        </div>
+        </a>
 
-        <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+        <a class="service-card" data-aos="fade-up" data-aos-delay="500"
+           href="https://wa.me/5584991728176?text=Olá!%20Quero%20Estratégia%20de%20Precificação."
+           target="_blank" rel="noopener noreferrer">
           <div class="service-card__icon">
             <i class="fas fa-tags"></i>
           </div>
           <h3>Estratégia de Precificação</h3>
           <p>Definição de preços competitivos sem perder margem e posicionamento.</p>
-        </div>
+        </a>
 
       </div>
     </div>
